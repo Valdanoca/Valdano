@@ -1,0 +1,89 @@
+
+header{
+    background-color: rgb(37, 2, 4);
+    width: 100%;
+    padding: 10px;
+ }
+body{
+background-color: aliceblue;
+}
+  
+.conteiner{
+justify-content: space-between;
+/*text-align: center;*/
+align-items: center;
+display: flex;
+}
+.meno a{
+width: 50%;
+text-decoration: none;
+font-size: 24px;
+color: white;
+padding: 5px;
+}
+.log a{
+   text-decoration: none;
+   padding: 10px ;
+   font-size: 18px;
+   color: white;
+}
+.log a:hover{
+    background-color:blue 
+}
+.meno a:hover{
+background-color: blue;
+}
+span {
+    display: block;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.image_separados{
+    margin-top: 15px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.pai{
+    background-color: rgb(53, 8, 8);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.passado img{
+    width: 50px;
+    height: 10;
+    margin: 20px;
+}
+.presente img{
+    width: 50px;
+    height: 10;
+    margin: 20px;
+ }
+ .futuro img{
+    font-size: 10px;
+    margin: 20px;
+    }
+.passado p{
+font-size: 10px;
+margin: 20px;
+}
+.presente p{
+font-size: 10px;
+margin: 20px;
+}
+.futuro p{
+font-size: 10px;
+margin: 20px;
+}
+
+.passado p b{
+    font-size: 15px;
+    }
+    .presente p b{
+    font-size: 15px;
+    }
+    .futuro p b{
+    font-size: 15px;
+    }
